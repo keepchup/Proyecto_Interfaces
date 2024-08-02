@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>BestKeyboard</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initialize&libraries=places">
+    </script>
+  </head>
+
+  <body>
+    <header>
+        <div class="header-left">
+            <img class="logo" src="./image-removebg-preview.png" alt="Logo">
+            <h1>BestKeyboard</h1>
+        </div>
+        <div class="header-right login">
+          <a href="login.html" class="profile"><i class="fas fa-sign-out-alt"></i></a>
+        </div>
+    </header>
+  
+    <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: #002856;">
+      <a class="navbar-brand" href="#"><i class="fa fa-home"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+          <a class="nav-link" href="tecladosOficina.html">Teclados de Oficina</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tecladosMecanicos.html">Teclados Mecanicos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tecladosCustom.html">Teclados Custom</a>
+        </li>
+          </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                <button class="btn btn-outline-success" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </nav>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://www.info-computer.com/img/cms/Blog%20Camila%20Sa/Teclado%20para%20Escribir%20o%20Trabajar%20en%20Oficina.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.muycomputerpro.com/wp-content/uploads/2021/02/logitech_g_pro_x_mechanical_gaming_keyboard.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.profesionalreview.com/wp-content/uploads/2022/03/keychron-q1.jpg" class="d-block w-100" alt="">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://www.info-computer.com/img/cms/Blog%20Camila%20Sa/Teclado%20para%20Escribir%20o%20Trabajar%20en%20Oficina.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Teclados de Oficina</h5>
+                        <p class="card-text">Mejora tu productividad con nuestros teclados de oficina ergonómicos y duraderos. Diseñados
+                        para ofrecer una experiencia de escritura cómoda y precisa, nuestros teclados cuentan con teclas de bajo perfil y
+                        respuesta rápida, perfectos para largas jornadas de trabajo.</p>
+                        <a href="#" class="btn btn-primary">Ver Catalogo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://www.muycomputerpro.com/wp-content/uploads/2021/02/logitech_g_pro_x_mechanical_gaming_keyboard.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Teclados Mecanicos</h5>
+                        <p class="card-text">Descubre nuestros teclados mecánicos de alta calidad. Perfectos para gamers y
+                        profesionales, estos teclados ofrecen una precisión y durabilidad incomparables. Cada tecla está equipada con
+                        interruptores mecánicos individuales, proporcionando una respuesta táctil y auditiva excepcional. </p>
+                        <a href="#" class="btn btn-primary">Ver Catalogo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="card-img-top" src="https://www.muycomputerpro.com/wp-content/uploads/2021/02/logitech_g_pro_x_mechanical_gaming_keyboard.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Teclados Custom</h5>
+                        <p class="card-text">Lleva tu experiencia de escritura y gaming al siguiente nivel con nuestros teclados Custom.
+                          Diseñados para los entusiastas que buscan la perfección, estos teclados ofrecen una personalización completa,
+                          desde los interruptores y las keycaps, hasta el case y la iluminacion RGB.</p>
+                        <a href="#" class="btn btn-primary">Ver Catalogo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <h3>Ubicacion de la tienda</h3>
+    <div class="conocenos">
+      <section>
+        <div id="map" style="height: 400px; width: 100%;">
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15959.16357919355!2d-78.4905842!3d-0.2124413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a107e1cd44b%3A0x88a284f66939ed4!2sESCUELA%20POLIT%C3%89CNICA%20NACIONAL!5e0!3m2!1ses-419!2sec!4v1718718852240!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+          <script>
+          function initialize() {
+            const mapOptions = {
+              center: { lat: -34.61315, lng: -58.37723 }, href="https://maps.app.goo.gl/zG7Cg9L84fZC61RA7"
+              zoom: 13 
+            };
+            const map = new google.maps.Map(document.getElementById('map'), mapOptions);
+          }
+        </script>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      document.getElementById('oficina').addEventListener('click', function () {
+        window.location.href = "tecladosOficina.html";
+      });
+      document.getElementById('gamer').addEventListener('click', function () {
+        window.location.href = "tecladosMecanicos.html";
+      });
+      document.getElementById('custom').addEventListener('click', function () {
+        window.location.href = "tecladosCustom.html";
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    
+  </body>
+
+  <footer>
+    <div class="redesS">
+        <a href="https://www.facebook.com/?locale=es_LA">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/768px-Facebook_Logo_%282019%29.png" alt="redes" class="redes"/>
+        </a>
+        <a href="https://www.instagram.com/">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="redes" class="redes"/>
+        </a>
+        <a href="https://x.com/?lang=es">
+          <img src="https://freelogopng.com/images/all_img/1690643640twitter-x-icon-png.png" alt="redes" class="redes"/>
+        </a>
+    </div>
+    <p>Derechos reservardos infor@cursos.com</p>
+    <p>Quito - Ecuador</p>
+  
+  </footer>
+  
+</html>
